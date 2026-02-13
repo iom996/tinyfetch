@@ -2,7 +2,7 @@
 A simple fetch in C which is tiny and fast.. it takes 0.001 to 0.004s to fetch
 
 ## Depends
-- TERM`, `LANG`, `USER`, `SHELL` environmental variables
+- `TERM`, `LANG`, `USER`, `SHELL` environmental variables
 - gcc
 - make
 
@@ -12,6 +12,7 @@ A simple fetch in C which is tiny and fast.. it takes 0.001 to 0.004s to fetch
    ```bash
    git clone [https://github.com/abrik1/tinyfetch](https://github.com/abrik1/tinyfetch)
    cd tinyfetch
+   ```
 
 2. **Configuration (Optional):**
   Edit src/config.h to customize the output.
@@ -19,6 +20,14 @@ A simple fetch in C which is tiny and fast.. it takes 0.001 to 0.004s to fetch
 3. **Build:**
 ```bash
 make
+```
+4. **Install:**
+```bash
+sudo make install
+```
+## Uninstall
+```bash
+sudo make uninstall
 ```
 ## Preview
 
