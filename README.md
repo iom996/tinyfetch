@@ -13,10 +13,10 @@ A simple fetch in C which is tiny and fast.. it takes 0.001 to 0.004s to fetch
    git clone [https://github.com/abrik1/tinyfetch](https://github.com/abrik1/tinyfetch)
    cd tinyfetch
 
-2. Configuration (Optional):
+2. **Configuration (Optional):**
   Edit src/config.h to customize the output.
 
-3. Build:
+3. **Build:**
 ```bash
 make
 ```
